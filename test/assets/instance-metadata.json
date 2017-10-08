@@ -1,0 +1,19 @@
+{
+  "Reservations": [
+    "Instances": [
+      {
+        "PublicIpAddress": "192.0.2.100"
+        "Tags": [
+          {
+            "Key": "dyndns:zoneid",
+            "Value": "Z111111QQQQQQQ"
+          },
+          {
+            "Key": "dyndns:hostname",
+            "Value": "example.com"
+          }
+        ]
+      }
+    ]
+  ]
+}

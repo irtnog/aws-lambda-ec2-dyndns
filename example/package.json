@@ -1,0 +1,9 @@
+{
+  "name": "aws-lambda-ec2-dyndns-example",
+  "version": "1.0.0",
+  "description": "Example implementation of aws-lambda-ec2-dyndns.",
+  "main": "index.js",
+  "dependencies": {
+    "aws-lambda-ec2-dyndns": "^1.0.0"
+  }
+}
