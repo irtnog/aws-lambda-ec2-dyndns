@@ -206,4 +206,8 @@ Promise.series = function(promises, initValue) {
   }, Promise.resolve(initValue));
 };
 
+// Local Variables:
+// js-indent-level: 2
+// End:
+
 // INDEX.JS ends here.

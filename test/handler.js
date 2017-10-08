@@ -155,4 +155,8 @@ describe('index.js', function() {
   });
 });
 
+// Local Variables:
+// js-indent-level: 2
+// End:
+
 // INDEX.JS ends here.
