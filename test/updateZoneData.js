@@ -83,7 +83,7 @@ describe('index.js', function() {
           assert.ok(err, 'updateZoneData threw an error due to API failure');
           done();
         });
-    };
+    });
   });
 });
 

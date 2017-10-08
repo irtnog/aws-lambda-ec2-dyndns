@@ -170,6 +170,6 @@ describe('index.js', function() {
         });
     });
   });
-};
+});
 
 // TEST/GETINSTANCEMETADATA.JS ends here.

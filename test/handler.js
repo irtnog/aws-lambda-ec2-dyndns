@@ -32,7 +32,7 @@ var fs = require('fs');
 
 var index = require('../index');
 
-describe('index.js'), function() {
+describe('index.js', function() {
   describe('#handler()', function() {
     it('mock data should result in a success', function(done) {
       var event = JSON.parse(fs.readFileSync('test/assets/event.json'));
@@ -88,7 +88,7 @@ describe('index.js'), function() {
       var overrides = {
         log: function() {
           assert.ok(true, 'custom log function called successfully');
-        }
+        },
         ec2: {
           describeInstances: function(options, callback) {
             callback(null, metadata);
