@@ -1,46 +1,46 @@
 {
-    "name": "@irtnog/aws-lambda-ec2-dyndns",
-    "version": "1.0.0",
-    "description": "Update the corresponding DNS A RR in Route 53 when an EC2 instance starts.",
-    "main": "index.js",
-    "scripts": {
-        "check-coverage": "istanbul check-coverage --statements 100",
-        "lint": "eslint *.js example/*.js test/*.js",
-        "test": "istanbul cover _mocha -- --check-leaks --timeout 3000"
-    },
-    "dependencies": {
-        "aws-sdk": "~2.7.25"
-    },
-    "devDependencies": {
-        "coveralls": "^2.11.8",
-        "eslint": "^3.15.0",
-        "eslint-config-google": "~0.6.0",
-        "istanbul": "~0.4.2",
-        "mocha": "^3.2.0"
-    },
-    "engines": {
-        "node": ">=6.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/irtnog/aws-lambda-ec2-dyndns.git"
-    },
-    "keywords": [
-        "aws",
-        "dns",
-        "dynamic",
-        "update",
-        "ec2",
-        "route53",
-        "lambda"
-    ],
-    "author": {
-        "name": "Matthew X. Economou",
-        "email": "<xenophon@irtnog.org>"
-    },
-    "license": "Apache-2.0",
-    "bugs": {
-        "url": "https://github.com/irtnog/aws-lambda-ec2-dyndns/issues"
-    },
-    "homepage": "https://github.com/irtnog/aws-lambda-ec2-dyndns#readme"
+  "name": "@irtnog/aws-lambda-ec2-dyndns",
+  "version": "1.0.0",
+  "description": "Update the corresponding DNS A RR in Route 53 when an EC2 instance starts.",
+  "main": "index.js",
+  "scripts": {
+    "check-coverage": "istanbul check-coverage --statements 100",
+    "lint": "eslint *.js example/*.js test/*.js",
+    "test": "istanbul cover _mocha -- --check-leaks --timeout 3000"
+  },
+  "dependencies": {
+    "aws-sdk": "~2.7.25"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.8",
+    "eslint": "^3.15.0",
+    "eslint-config-google": "~0.6.0",
+    "istanbul": "~0.4.2",
+    "mocha": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irtnog/aws-lambda-ec2-dyndns.git"
+  },
+  "keywords": [
+    "aws",
+    "dns",
+    "dynamic",
+    "update",
+    "ec2",
+    "route53",
+    "lambda"
+  ],
+  "author": {
+    "name": "Matthew X. Economou",
+    "email": "<xenophon@irtnog.org>"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/irtnog/aws-lambda-ec2-dyndns/issues"
+  },
+  "homepage": "https://github.com/irtnog/aws-lambda-ec2-dyndns#readme"
 }
