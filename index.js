@@ -35,7 +35,7 @@
 
 var AWS = require('aws-sdk');
 
-console.log('AWS Lambda Dynamic DNS Client for EC2 Instances // @irtnog // Version 0.0.1');
+console.log('AWS Lambda Dynamic DNS Client for EC2 Instances // @irtnog // Version 1.0.0');
 
 var defaultConfig = {
   zoneid_tag: 'dyndns:zoneid',
