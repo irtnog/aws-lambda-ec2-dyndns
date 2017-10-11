@@ -1,23 +1,26 @@
 {
   "Reservations": [
-    "Instances": [
-      {
-        "PublicIpAddress": "192.0.2.100"
-        "Tags": [
-          {
-            "Key": "dyndns:zoneid",
-            "Value": "Z111111QQQQQQQ"
-          },
-          {
-            "Key": "dyndns:hostname",
-            "Value": "example.com"
-          },
-          {
-            "Key": "dyndns:rr-ttl",
-            "Value": "60"
-          }
-        ]
-      }
-    ]
+    {
+      "Groups": [],
+      "Instances": [
+        {
+          "PublicIpAddress": "192.0.2.100",
+          "Tags": [
+            {
+              "Key": "dyndns:zoneid",
+              "Value": "Z111111QQQQQQQ"
+            },
+            {
+              "Key": "dyndns:hostname",
+              "Value": "example.com"
+            },
+            {
+              "Key": "dyndns:rr-ttl",
+              "Value": "60"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

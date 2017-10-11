@@ -1,8 +1,8 @@
 {
-  ChangeInfo: {
-    Comment: "Web server for example.com",
-    Id: "/change/C2682N5HXP0BZ4",
-    Status: "PENDING",
-    SubmittedAt: "2017-10-05T09:40:59.237Z"
+  "ChangeInfo": {
+    "Comment": "Web server for example.com",
+    "Id": "/change/C2682N5HXP0BZ4",
+    "Status": "PENDING",
+    "SubmittedAt": "2017-10-05T09:40:59.237Z"
   }
 }
