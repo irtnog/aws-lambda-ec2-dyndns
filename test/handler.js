@@ -131,7 +131,7 @@ describe('index.js', function() {
           ['test']
         ]
       };
-      index.handler(event, content, callback, overrides);
+      index.handler(event, context, callback, overrides);
     });
 
     it('should report failure for steps passing an error', function(done) {
